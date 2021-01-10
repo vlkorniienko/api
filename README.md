@@ -19,7 +19,7 @@ microseconds, X-Server-Name is the server name (hostname)
 ```
 git clone 
 go build -o api cmd/main.go
-./server
+./api
 ```
 ##### Request example:
 curl -X GET http://localhost:8090/ -d '{"id":42}' -v
